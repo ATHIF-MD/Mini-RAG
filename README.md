@@ -24,16 +24,17 @@
 Upload your PDFs. The app splits the text into chunks, converts them to vectors, and stores them in a local FAISS index.
 <img width="1920" height="1080" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/755f7b14-303b-4d10-a516-ec7353fc12cc" />
 
-
 ### 2. Retrieval & Reasoning
 Ask a question. The app performs a similarity search to find the top 4 relevant context chunks and sends them to Llama 3.1.
 <img width="1920" height="1080" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/a28015a7-f915-449e-a628-bff87f5d98a5" />
-
 
 ### 3. Generation
 The local LLM generates a precise answer based strictly on the retrieved context.
 <img width="1920" height="1080" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/fa30a77a-9fab-4db3-bee8-fa2c35508ca5" />
 
+### 4. Hallucination Guard
+The system is engineered for strict accuracy. If a user asks a question not covered in the documents, the AI admits it doesn't know rather than making up an answer.
+<img width="1920" height="1080" alt="4  Hallucination Guard" src="https://github.com/user-attachments/assets/4d611946-383a-4ba9-8568-f234fbbebf10" />
 
 ---
 
