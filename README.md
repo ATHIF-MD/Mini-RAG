@@ -14,7 +14,7 @@
 * **Framework:** [LangChain](https://www.langchain.com/)
 * **Vector Database:** [FAISS](https://github.com/facebookresearch/faiss) (CPU/Local)
 * **Embeddings:** HuggingFace (`all-MiniLM-L6-v2`)
-* **Hardware Acceleration:** RTX 3050 (mobile) GDDR6 6GB VRAM with 95W TGP
+* **Hardware Acceleration:** NVIDIA RTX 3050 (mobile) GDDR6 6GB VRAM with 95W TGP
 
 ---
 
