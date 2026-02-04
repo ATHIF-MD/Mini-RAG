@@ -50,7 +50,7 @@ The system is engineered for strict accuracy. If a user asks a question not cove
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/Mini-RAG-Local.git](https://github.com/YOUR_USERNAME/Mini-RAG-Local.git)
+git clone [https://github.com/ATHIF-MD/Mini-RAG-Local.git]
 cd Mini-RAG-Local
 ```
 
